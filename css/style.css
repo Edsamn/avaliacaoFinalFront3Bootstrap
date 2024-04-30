@@ -6,7 +6,7 @@
 }
 
 .header {
-  height: 250px;
+  margin-bottom: 50px;
 }
 
 #searchInput {
@@ -43,7 +43,7 @@
 
 .userCard img {
   height: 300px;
-  width: 250px;
+  width: 200px;
   border-radius: 5px;
 }
 
@@ -58,6 +58,7 @@
   justify-content: stretch;
   flex-direction: column;
   margin-left: 10px;
+  font-size: 0.78rem;
 }
 
 .footer {
