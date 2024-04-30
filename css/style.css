@@ -32,7 +32,6 @@
 
 .userCard {
   background-color: #334836;
-  border-radius: 5px;
   margin: 1rem;
   width: 600px;
   height: 300px;
@@ -44,7 +43,6 @@
 .userCard img {
   height: 300px;
   width: 200px;
-  border-radius: 5px;
 }
 
 .userCardImage {
