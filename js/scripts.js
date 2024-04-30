@@ -130,7 +130,6 @@ async function showModal(character) {
   if (character.status === "Alive") {
     modalBody.innerHTML = `
     <img src='${character.image}' alt=''>
-    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" ><h3 class = "text-white"> ${character.name} </h3></a>
     <div class="d-flex"><span class ="statusAlive"></span><p class = "text-white">${character.status} - ${character.species}</p></div>
     <p class = "text-secondary"> Última localização conhecida </p>
     <p class = "text-white"> ${character.location.name} </p>
@@ -140,7 +139,6 @@ async function showModal(character) {
   } else if (character.status === "Dead") {
     modalBody.innerHTML = `
     <img src='${character.image}' alt=''>
-    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><h3 class = "text-white"> ${character.name} </h3></a>
     <div class="d-flex"><span class ="statusDead"></span><p class = "text-white">${character.status} - ${character.species}</p></div>
     <p class = "text-secondary"> Última localização conhecida </p>
     <p class = "text-white"> ${character.location.name} </p>
@@ -150,7 +148,6 @@ async function showModal(character) {
   } else if (character.status === "unknown") {
     modalBody.innerHTML = `
     <img src='${character.image}' alt=''>
-    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><h3 class = "text-white"> ${character.name} </h3></a>
     <div class="d-flex"><span class ="statusUnknown"></span><p class = "text-white">${character.status} - ${character.species}</p></div>
     <p class = "text-secondary"> Última localização conhecida </p>
     <p class = "text-white"> ${character.location.name} </p>
